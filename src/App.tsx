@@ -73,6 +73,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-morandi-sand flex flex-col items-center px-4 py-6">
+      <nav className="w-full max-w-3xl sticky top-0 z-40 flex items-center justify-between py-2 px-3 mb-2 bg-morandi-paper/90 backdrop-blur-sm border-b border-morandi-fog">
+        <a href="/" className="font-terminal text-lg text-morandi-ink no-underline hover:text-morandi-clay">Challen 王</a>
+        <a href="/#projects" className="font-terminal text-base text-morandi-taupe no-underline hover:text-morandi-ink">← 项目档案</a>
+      </nav>
       <header className="mb-6 text-center">
         <h1 className="font-pixel text-2xl text-morandi-ink tracking-wider">
           MORANDI TETRIS
